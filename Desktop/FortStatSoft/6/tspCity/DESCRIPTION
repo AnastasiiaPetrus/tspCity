@@ -1,0 +1,31 @@
+Package: tspCity
+Type: Package
+Title: Travel Tools: TSP Routing, Hotel Search, and City Weather Visualization on Interactive Maps
+Version: 0.1.0
+Authors@R: c(
+    person(
+      given = "Anastasiia",
+      family = "Petrus",
+      email = "Anastasiia.Petrus@campus.lmu.de",
+      role = c("aut", "cre")
+    )
+  )
+Description: A user-friendly R package for travel planning and interactive visualization. 
+    Provides functions to solve and visualize the Traveling Salesman Problem (TSP) for cities or coordinate points 
+    (with automatic geocoding), find hotels using OpenStreetMap data, and display current weather with emojis on interactive maps. 
+    Ideal for quick demonstrations, teaching, and exploratory travel data analysis.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.0.0)
+Imports:
+    leaflet,
+    magrittr,
+    tidygeocoder,
+    httr,
+    jsonlite,
+    osmdata,
+    sf,
+    geosphere,
+    TSP
+RoxygenNote: 7.3.2
